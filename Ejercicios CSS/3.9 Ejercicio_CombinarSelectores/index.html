@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Combinar CSS Selectores</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<!-- No modificar codigo de HTML! -->
+<!--Tareas para hacer en CSS externo:
+  1.- Utilizar método grupo para asignar un mismo color a h1 y h2.
+  2.- Utilizar método hijo, para asignar color al párrafo "Para hoy".
+  3.- Utilizar método descendiente para cambiar el color de los elementos que estan descendientes la clase lista.
+  4.- Utilizar método encadenamiento para cambiar el color de los elementos listas "Leer" y "Tarea diplomado"
+  5.- Utilizar método combinar para cambiar de tamaño de fuente a 0.5 rem del parrafo "Otros"
+-->
+
+<body>
+  <h1>Lista Pendientes</h1>
+  <h2>Lunes</h2>
+  <div class="caja">
+    <p class="hecho">Para hoy!</p>
+    <ul class="lista">
+      <li>Lavar Ropa</li>
+      <li class="hecho">Leer</li>
+      <li class="hecho">Tarea diplomado</li>
+    </ul>
+  </div>
+
+  <ul>
+    <p class="hecho">Otros</p>
+  </ul>
+  <p>La mejor preparación para el mañana es empezar hoy.</p>
+
+</body>
+
+</html>

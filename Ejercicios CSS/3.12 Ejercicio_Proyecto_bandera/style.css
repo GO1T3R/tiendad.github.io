@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    font-size: xx-large;
+}
+
+div{
+    width: 900px;
+    height: 600px;
+    position: relative; 
+    background-color: brown;
+    border: 10px solid;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+
+}
+
+div>div{
+    width: 881px;
+    height: 265px;
+    background-color: rgb(45, 45, 100);
+    margin-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(45, 45, 100);
+    
+}
+
+div>div>div{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 320px;
+    background-color: white;
+    border-radius: 200px;
+    
+    
+
+}
+
+p{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 10px;
+}

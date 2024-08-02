@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /*Se aplica ancho al parrafo 1 y ancho y alto parrafo 2*/
+        .antecesor { 
+        background-color: #ed8936;
+        color: #fff;
+        width: 200px; /*ancho del elemento*/
+        height: 128px; /*alto del elemento*/
+        position:relative; /*posicion relativa del elemento*/
+        left: 48px; /*se deplaza de izquierda a derecha 48px*/
+        top: 48px;  /*se deplaza de arriba a abajo 48px*/
+        }
+        .hijo_absolute1 { 
+        background-color: #f56565;
+        color: #fff;
+        padding: 12px;
+        position:absolute; /*posicion absolute del elemento*/
+        left: 80px; /*se deplaza de izquierda a derecha 80px*/
+        top: 12px;
+        }
+        .hijo_absolute2 { 
+        background-color: #ecc94b;
+        color: #fff;
+        padding: 12px;
+        position:absolute; /*posicion absolute del elemento se sobrepone*/
+        left: 28px; /*se deplaza de izquierda a derecha 48px*/
+        top: 20px;
+        }
+    </style>
+    <title>Absoluto</title>
+</head>
+<body>
+    <div class="antecesor">
+        <div class="hijo_absolute1">
+        Absolute 1
+        </div>
+        <div class="hijo_absolute2">
+        Absolute 2
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/343/387/non_2x/desktop-source-code-and-wallpaper-by-coding-and-programming-free-photo.jpg);
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+h1{
+    font-family: "Quicksand", sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: normal;
+    background-color: lightblue;
+}
+
+h3{
+    font-family: "Quicksand", sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h4{
+    font-family: "Quicksand", sans-serif;
+    font-size: smaller;
+    font-weight: bolder;
+    margin-left:200px ;
+}
+
+.MainBox{
+
+    width: 400px;
+    height: 360px;
+    background-color: azure;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 210px;
+    
+    
+}
+
+
+.List{
+
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+    text-align: justify;
+    position: relative;
+    margin-left: 100px;
+    
+}

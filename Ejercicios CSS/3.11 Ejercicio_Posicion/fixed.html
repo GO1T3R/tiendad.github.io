@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .padre_relative { 
+        background-color: rgb(66, 153, 225);
+        color: #fff;
+        width: auto; /*ancho del elemento*/
+        height: 328px; /*alto del elemento*/
+        position:relative; /*posicion relativa del elemento*/
+        left: 18px; /*se deplaza de izquierda a derecha*/
+        top: 48px;  /*se deplaza de arriba a abajo*/
+        }
+        .hijo_fixed { 
+        background-color: #f56565;
+        color: #fff;
+        padding: 12px;
+        position:fixed; /*posicion fija del elemento*/
+        left: 80px; /*se deplaza de izquierda a derecha*/
+        top: 80px;
+        }
+        .hijo_absolute { 
+        background-color: #ecc94b;
+        color: #fff;
+        padding: 12px;
+        position:absolute; /*posicion absolute del elemento se sobrepone*/
+        left: 16px; /*se deplaza de izquierda a derecha*/
+        top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="padre_relative">
+        <div class="hijo_fixed">
+        Fixed
+        </div>
+        <div class="hijo_absolute">
+        Absolute
+        </div>
+    </div>
+</body>
+</html>

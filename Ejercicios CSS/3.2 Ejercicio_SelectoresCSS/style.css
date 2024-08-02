@@ -1,0 +1,28 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Escribir codigo CSS debajo */
+
+/*Tarea 1: Crear la regla CSS para tener el texto del parrafo en rojo "color: red"*/
+p{
+  color: red;
+}
+/*Tarea 2: Crear la regla CSS para asignar a todas los elementos con clase nota a un tamaño de fuente de 20 pixeles, "font-size: 20px"*/
+.nota{
+  font-size: 20 px;
+}
+/*Tarea 3: Crear la regla CSS para que el color de texto del elemento con id  "elem_lista" sea verde, "color: green"*/
+#elem_lista{
+  color: green;
+}
+/*Tarea 4: Crear la regla CSS para el color texto de los elementos lista con valor específico de "4", "color: blue"*/
+li[value="4"]{
+  color: blue;
+}
+/*Tarea 5: Crear regla para que todos los elementos de texto esten centrados "text-align: center"*/
+body{
+  text-align: center;
+}
